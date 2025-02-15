@@ -7,7 +7,7 @@ pipeline {
         ACR_NAMESPACE = 'nginx-vmware'
         ACR_REPOSITORY = 'jenkins-test'
         ACR_USERNAME = 'xiajiajia'
-        ACR_PASSWORD = '990111xjj.'
+        ACR_PASSWORD = '990111Xjj.'
         // GitHub配置
         GITHUB_REPO = 'https://github.com/xiejiajia01/test-jenkins'
     }
