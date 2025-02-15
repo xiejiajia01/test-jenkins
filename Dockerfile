@@ -1,9 +1,12 @@
 # 使用多阶段构建
 # 第一阶段：构建
-FROM golang:1.21-alpine AS builder
+FROM c-xie-create-registry.cn-beijing.cr.aliyuncs.com/xiejaijia/docker:golang1.21 AS builder
 
 # 设置工作目录
 WORKDIR /app
+
+# 设置 GOPROXY 环境变量
+ENV GOPROXY=https://proxy.golang.org,direct
 
 # 安装必要的系统依赖
 RUN apk add --no-cache gcc musl-dev
