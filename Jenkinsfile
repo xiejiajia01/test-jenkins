@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        // 阿里云容器镜像服务配置
+        // 阿里云容器镜像服务配置。
         ACR_SERVER = 'registry.cn-hangzhou.aliyuncs.com'
         ACR_NAMESPACE = 'nginx-vmware'
         ACR_REPOSITORY = 'jenkins-test'
