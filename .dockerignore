@@ -1,0 +1,29 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试文件
+*.test
+*.tmp
+test.html
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 其他
+*.log
+.DS_Store
